@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume">
+        <section class="info">
+            <!-- <div id="personal-details" class="details show"> -->
+                <img src="./profile.jpeg" alt="Profile Picture" class="profile-picture">
+                <h1>Umm E Habiba Madni</h1>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</p>
+                    <h2>Education</h2>
+                    <p><strong>Diploma: software Technology</strong> </p>
+                    <p>goverment college of Technology (ongoing)</p>
+                    <p><strong>Matriculation: Computer Science</strong></p>
+                    <p>Biek karachi , 2022</p>
+                    <p><strong>Intermidate: Computer Science</strong></p>
+                    <p>Biek karachi , 2024</p>
+
+                    <h2 onclick="toggleSection('details')">Details</h2>
+                    <div id="details" class="details show">
+                    <h3>Skills</h3>
+                        <ul>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Next Js</li>
+                        <li>Graphic Designer</li>
+                    </ul>
+                    <h3 onclick="toggleSection('experience-details')">Work Experience</h3>
+                    <p>Fresh candidate</p>
+                    <h3>contact</h3>
+                    <div id="contact-details" class="details show">
+                    <li>
+                        contact 03408051451 | Gmail: muskanmadni153@gmail.com
+                    </li>
+                </div>
+
+            </div>
+        <!-- </section> -->
+
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
